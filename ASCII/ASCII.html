@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+</head>
+ 
+<body onkeyup="Key(event)">
+ 
+<p>Enter any key from the keyboard by clicking on the screen.</p>
+ 
+<p id="key"></p>
+ 
+<script>
+    function Key(Whichkey) {
+        document.getElementById("key").innerHTML = Whichkey.keyCode;
+      }
+ 
+</script>
+</body>
+</html>
